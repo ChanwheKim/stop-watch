@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Lato';
+}
+
+h1 {
+    /* text-align: center; */
+    margin: 2rem 0;
+    font-size: 2.2rem;
+    font-weight: 300;   
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 1rem;
+}
+
+.row {
+    width: 1140px;
+    /* text-align: center; */
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.wrapper {
+    width: 30%;
+    margin: 7rem auto;
+    text-align: center;
+    width: 36rem;
+}
+
+.stop-watch {
+    height: 500px;
+    font-size: 3rem;
+    color: #555;
+    margin: 0 auto;
+}
+
+.watch-label {
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: skyblue;
+    color: #fff;
+    border: none;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, .3);
+    transition: all .3s;
+    margin-right: 1.5rem;
+    margin-top: 10px;
+    width: 6.5rem;
+    height: 4.4rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    transform: translateY(0px);
+}
+
+#start {
+    margin-left: 2rem;
+}
+
+span {
+    width: 4rem;
+    display: inline-block;
+}
+
+.watch-label {
+    font-size: 4rem;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
